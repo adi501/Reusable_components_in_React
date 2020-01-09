@@ -3,24 +3,23 @@
   text-align: center;
 }
 button {
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 10px 10px;
+  border-radius: 15px;
   font-size: 18px;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   margin: 0 5px;
 }
-.btn-default {
+.btn-red {
   background-color: #e14d4d;
   color: #d9abab;
 }
 
-.btn-secondary {
-  background-color: #e14daf;
+.btn-green {
+  background-color: green;
   color: #e0a2d2;
 }
-.btn-primary {
-  background-color: #4de1ca;
+.btn-blue {
+  background-color: blue;
   color: #4e6f64;
 }
 
