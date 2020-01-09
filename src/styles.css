@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 5px;
+}
+.btn-default {
+  background-color: #e14d4d;
+  color: #d9abab;
+}
+
+.btn-secondary {
+  background-color: #e14daf;
+  color: #e0a2d2;
+}
+.btn-primary {
+  background-color: #4de1ca;
+  color: #4e6f64;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 10px;
+}
