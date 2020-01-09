@@ -6,12 +6,15 @@ import "./styles.css";
 function App() {
   function submitClick(e) {
     e.preventDefault();
+    console.log("submitClick");
   }
   function resetClick(e) {
     e.preventDefault();
+    console.log("resetClick");
   }
   function cancelClick(e) {
     e.preventDefault();
+    console.log("cancelClick");
   }
 
   return (
