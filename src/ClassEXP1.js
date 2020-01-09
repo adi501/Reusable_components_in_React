@@ -7,16 +7,16 @@ class ClassEXP1 extends Component {
     this.state = { Data: "" };
   }
   submitClick = e => {
-    console.log("submitClick");
-    this.setState({ Data: "submitClick" });
+    console.log("Submit Button Clicked");
+    this.setState({ Data: "Submit Button Clicked" });
   };
   resetClick = e => {
-    console.log("resetClick");
-    this.setState({ Data: "resetClick" });
+    console.log("Reset Button Clicked");
+    this.setState({ Data: "Reset Button Clicked" });
   };
   cancelClick = e => {
-    console.log("cancelClick");
-    this.setState({ Data: "cancelClick" });
+    console.log("Cancel Button Clicked");
+    this.setState({ Data: "Cancel Button Clicked" });
   };
   render() {
     return (
